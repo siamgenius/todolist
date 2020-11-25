@@ -1,0 +1,94 @@
+body{
+    font-family: 'David Libre';
+       text-transform: uppercase;
+       
+        --stripe: #cfd8dc;
+        --bg: #e1e1e1;
+      
+        background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+          linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+          linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+          linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+        background-size: 100px 100px;
+        background-color: var(--stripe);
+      
+
+}
+
+#container{
+    margin: 0px  auto;
+    width: 400px;
+    border-shadow: 3px rgba(0,0,0,1) ;
+    background-color: seashell;
+
+}
+h1{
+    text-align: center;
+    border: 2px dashed purple;
+    width: 600px;
+    margin: 50px auto;
+    color: red;
+     font-size: 50px;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+h2{
+    
+    color: #f7f7f7 ;
+    padding : 12px, 20px;
+    background : rgba(10, 10, 130,1);
+    margin:0;
+    font-size: 20px;
+}
+
+input{
+    width:100%;
+    font-size: 16px;
+    padding: 10px 5px 5px 10px;
+    color: rgb(230, 67, 7);
+}
+
+.compleated{
+    color : red;
+    text-decoration: line-through;
+}
+
+.fa-plus-circle{
+float : right;
+}
+
+li{
+    background: #d2dcf7;
+    height: 30px;
+    line-height: 2px;
+    color: black;
+    font-weight: bold;
+    padding-right: 10px ;
+}
+
+li:nth-child(2n){
+    background: #b1b5bd;
+}
+
+
+span{
+    width: 0; 
+   background: rgb(230, 67, 7);
+    margin-right: 20px;
+    height: 30px;
+    text-align : center;
+    color: white;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
